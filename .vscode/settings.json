@@ -1,0 +1,4 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.autoComplete.extraPaths": ["_lib.sikuli","_uimap.sikuli"]
+}
