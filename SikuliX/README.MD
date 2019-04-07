@@ -1,5 +1,2 @@
-Install SikuliX in this folder
+Install SikuliX 1.3 in this folder
 http://sikulix.com/
-
-Please not that you need to install right Sikuli in this folder
-
