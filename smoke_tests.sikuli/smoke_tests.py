@@ -27,7 +27,7 @@ class SmokeTests(unittest.TestCase):
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(SmokeTests)
     
-   
+    print("WARNING: You may need to adapt UI map to match your windows specifics")
     outfile = open("Report.html", "w")
     runner = HTMLTestRunner.HTMLTestRunner(stream=outfile, title='SmokeTests Report' )
     runner.run(suite)

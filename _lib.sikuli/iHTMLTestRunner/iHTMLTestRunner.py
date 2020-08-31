@@ -635,6 +635,9 @@ class _TestResult(TestResult):
 class HTMLTestRunner(Template_mixin):
     """
     """
+    def isAborted(self):
+        return False
+
     def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None):
         self.stream = stream
         jUnitResultOutputFolder=os.path.dirname(stream.name)

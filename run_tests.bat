@@ -1,3 +1,3 @@
 del Report.xml
 del Report.html
-SikuliX\runsikulix.cmd -r smoke_tests.sikuli
+java -jar SikuliX\sikulixide-2.0.4.jar -r smoke_tests.sikuli
