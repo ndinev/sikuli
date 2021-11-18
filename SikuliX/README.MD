@@ -1,2 +1,2 @@
-Install SikuliX 2.0.4 in this folder
+Install SikuliX 2.0.5 in this folder
 http://sikulix.com/
